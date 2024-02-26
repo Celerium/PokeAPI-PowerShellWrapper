@@ -135,7 +135,7 @@ Get-Help Get-PokePokemon -Full
 
 ## Initial Setup
 
-After installing this module, you will need to configure both the *base URI* & *API access tokens* that are used to talk with the Poke API.
+After installing this module, you will need to configure the *base URI* that are used to talk with the Poke API.
 
 1. Run `Add-PokeBaseURI`
    - By default, Poke's `https://pokeapi.co/api/v2` URI is used.
@@ -144,7 +144,7 @@ After installing this module, you will need to configure both the *base URI* & *
       <br>
 
 2. [**optional**] Run `Export-PokeModuleSettings`
-   - This will create a config file at `%UserProfile%\PokeAPI` that holds the *base uri* & *API access tokens* information.
+   - This will create a config file at `%UserProfile%\PokeAPI` that holds the *base uri*  information.
    - Next time you run `Import-Module -Name PokeAPI`, this configuration file will automatically be loaded.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
