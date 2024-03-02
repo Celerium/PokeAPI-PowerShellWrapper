@@ -177,16 +177,6 @@ Calling an API resource is as simple as running `Get-Poke<resourceName>`
 |game     |/version/{id or name}/                  |GET   |Get-PokeGameVersion            |
 |game     |/version-group/                         |GET   |Get-PokeGameVersionGroup       |
 |game     |/version-group/{id or name}/            |GET   |Get-PokeGameVersionGroup       |
-|Internal |                                        |POST  |Add-PokeBaseURI                |
-|Internal |                                        |PUT   |ConvertTo-PokeQueryString      |
-|Internal |                                        |GET   |Export-PokeModuleSettings      |
-|Internal |                                        |GET   |Get-PokeBaseURI                |
-|Internal |                                        |GET   |Get-PokeMetaData               |
-|Internal |                                        |GET   |Get-PokeModuleSettings         |
-|Internal |                                        |SET   |Import-PokeModuleSettings      |
-|Internal |                                        |GET   |Invoke-PokeRequest             |
-|Internal |                                        |DELETE|Remove-PokeBaseURI             |
-|Internal |                                        |DELETE|Remove-PokeModuleSettings      |
 |item     |/item/                                  |GET   |Get-PokeItem                   |
 |item     |/item/{id or name}/                     |GET   |Get-PokeItem                   |
 |item     |/item-attribute/                        |GET   |Get-PokeItemAttribute          |
