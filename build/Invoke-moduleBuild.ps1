@@ -51,8 +51,8 @@
                                         Code
 ############################################################################################>
 #Requires -Version 5.1
-#Requires -Modules @{ ModuleName="ModuleBuilder";   ModuleVersion="3.0.1" }
-#Requires -Modules @{ ModuleName="Pester";          ModuleVersion="5.5.0" }
+#Requires -Modules @{ ModuleName="ModuleBuilder";   ModuleVersion="3.1.0" }
+#Requires -Modules @{ ModuleName="Pester";          ModuleVersion="5.6.1" }
 #Requires -Modules @{ ModuleName="platyPS";         ModuleVersion="0.14.2" }
 
 #Region  [ Parameters ]

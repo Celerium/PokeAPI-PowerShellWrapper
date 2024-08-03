@@ -17,17 +17,17 @@ Gets move targets from PokeAPI
 
 ### index_ByAll (Default)
 ```powershell
-Get-PokeMoveTarget [-offset <Int32>] [-limit <Int32>] [-allPages] [<CommonParameters>]
+Get-PokeMoveTarget [-offset <Int32>] [-limit <Int32>] [-allPages] [-updateCache] [<CommonParameters>]
 ```
 
 ### index_ById
 ```powershell
-Get-PokeMoveTarget -id <Int32> [<CommonParameters>]
+Get-PokeMoveTarget -id <Int32> [-updateCache] [<CommonParameters>]
 ```
 
 ### index_ByName
 ```powershell
-Get-PokeMoveTarget -name <String> [<CommonParameters>]
+Get-PokeMoveTarget -name <String> [-updateCache] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -146,6 +146,23 @@ pagination is introduced.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: index_ByAll
+Aliases:
+
+Required: False
+Position: Named
+Default value: False
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -updateCache
+Defines if the cache is refreshed regardless of age
+
+By default the cache is refreshed every 30min
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
 Aliases:
 
 Required: False

@@ -32,7 +32,7 @@ function Get-PokeMetaData {
             http://myapi.gateway.example.com/device
 
     .NOTES
-        N\A
+        N/A
 
     .LINK
         https://celerium.github.io/PokeAPI-PowerShellWrapper/site/Internal/Get-PokeMetaData.html
@@ -44,7 +44,7 @@ function Get-PokeMetaData {
         [string]$base_uri = $Poke_Base_URI
     )
 
-    begin { $resource_uri = "/" }
+    begin { $resource_uri   = "/" }
 
     process {
 

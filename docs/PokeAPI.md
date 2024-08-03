@@ -25,13 +25,16 @@ Exports the Poke BaseURI, API, & JSON configuration information to file.
 Shows the Poke base URI global variable.
 
 ### [Get-PokeBerry](site/berry/Get-PokeBerry.md)
-Gets pokemon forms from PokeAPI
+Gets berries from PokeAPI
 
 ### [Get-PokeBerryFirmness](site/berry/Get-PokeBerryFirmness.md)
 Gets the firmness of berries from PokeAPI
 
 ### [Get-PokeBerryFlavor](site/berry/Get-PokeBerryFlavor.md)
 Gets berry flavor from PokeAPI
+
+### [Get-PokeCachedData](site/Internal/Get-PokeCachedData.md)
+Gets cached data
 
 ### [Get-PokeContestEffect](site/contest/Get-PokeContestEffect.md)
 Gets contest effects from PokeAPI
@@ -150,6 +153,9 @@ Gets egg groups from PokeAPI
 ### [Get-PokePokemonEncounter](site/pokemon/Get-PokePokemonEncounter.md)
 Gets pokemon location areas from PokeAPI
 
+### [Get-PokePokemonForm](site/pokemon/Get-PokePokemonForm.md)
+Gets pokemon forms from PokeAPI
+
 ### [Get-PokePokemonGender](site/pokemon/Get-PokePokemonGender.md)
 Gets genders from PokeAPI
 
@@ -188,5 +194,8 @@ Removes the Poke base URI global variable.
 
 ### [Remove-PokeModuleSettings](site/Internal/Remove-PokeModuleSettings.md)
 Removes the stored Poke configuration folder.
+
+### [Set-PokeCachedData](site/Internal/Set-PokeCachedData.md)
+Sets cached data
 
 

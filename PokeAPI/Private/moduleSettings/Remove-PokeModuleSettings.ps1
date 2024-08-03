@@ -39,7 +39,7 @@ function Remove-PokeModuleSettings {
             C:\PokeAPI
 
     .NOTES
-        N\A
+        N/A
 
     .LINK
         https://celerium.github.io/PokeAPI-PowerShellWrapper/site/Internal/Remove-PokeModuleSettings.html

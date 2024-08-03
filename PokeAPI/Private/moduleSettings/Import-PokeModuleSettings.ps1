@@ -41,7 +41,7 @@ function Import-PokeModuleSettings {
             C:\PokeAPI\MyConfig.psd1
 
     .NOTES
-        N\A
+        N/A
 
     .LINK
         https://celerium.github.io/PokeAPI-PowerShellWrapper/site/Internal/Import-PokeModuleSettings.html

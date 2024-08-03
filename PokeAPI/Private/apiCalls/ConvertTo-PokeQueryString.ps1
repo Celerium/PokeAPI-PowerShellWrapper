@@ -35,7 +35,7 @@ function ConvertTo-PokeQueryString {
             2x key = https://pokeapi.co/api/v2/account?accountId=12345&details=True
 
     .NOTES
-        N\A
+        N/A
 
     .LINK
         https://celerium.github.io/PokeAPI-PowerShellWrapper/site/Internal/ConvertTo-PokeQueryString.html
@@ -61,7 +61,8 @@ param(
 
         $excludedParameters =   'Debug', 'ErrorAction', 'ErrorVariable', 'InformationAction', 'InformationVariable',
                                 'OutBuffer', 'OutVariable', 'PipelineVariable', 'Verbose', 'WarningAction', 'WarningVariable',
-                                'allPages', 'id', 'name'
+                                'allPages','updateCache',
+                                'id', 'name'
 
         $query_Parameters = [System.Web.HttpUtility]::ParseQueryString([String]::Empty)
 

@@ -51,7 +51,7 @@ function Invoke-PokeRequest {
 
 
     .NOTES
-        N\A
+        N/A
 
     .LINK
         https://celerium.github.io/PokeAPI-PowerShellWrapper/site/Internal/Invoke-PokeRequest.html

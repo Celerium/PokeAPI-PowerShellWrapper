@@ -12,7 +12,7 @@ function Remove-PokeBaseURI {
         Removes the Poke base URI global variable.
 
     .NOTES
-        N\A
+        N/A
 
     .LINK
         https://celerium.github.io/PokeAPI-PowerShellWrapper/site/Internal/Remove-PokeBaseURI.html

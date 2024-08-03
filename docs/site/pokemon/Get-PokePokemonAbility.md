@@ -17,17 +17,17 @@ Gets Pokemon abilities from PokeAPI
 
 ### index_ByAll (Default)
 ```powershell
-Get-PokePokemonAbility [-offset <Int32>] [-limit <Int32>] [-allPages] [<CommonParameters>]
+Get-PokePokemonAbility [-offset <Int32>] [-limit <Int32>] [-allPages] [-updateCache] [<CommonParameters>]
 ```
 
 ### index_ById
 ```powershell
-Get-PokePokemonAbility -id <Int32> [<CommonParameters>]
+Get-PokePokemonAbility -id <Int32> [-updateCache] [<CommonParameters>]
 ```
 
 ### index_ByName
 ```powershell
-Get-PokePokemonAbility -name <String> [<CommonParameters>]
+Get-PokePokemonAbility -name <String> [-updateCache] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -145,6 +145,23 @@ pagination is introduced.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: index_ByAll
+Aliases:
+
+Required: False
+Position: Named
+Default value: False
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -updateCache
+Defines if the cache is refreshed regardless of age
+
+By default the cache is refreshed every 30min
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
 Aliases:
 
 Required: False

@@ -11,7 +11,7 @@ Some functions will handle more than one endpoint and the numbers below show the
 | **Method** | **Endpoint Count**  |
 |------------|---------------------|
 | DELETE     | 2       |
-| GET        | 5          |
+| GET        | 6          |
 | POST       | 1         |
 | PUT        | 1          |
 
