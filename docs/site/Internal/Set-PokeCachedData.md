@@ -3,7 +3,7 @@ external help file: PokeAPI-help.xml
 grand_parent: Internal
 Module Name: PokeAPI
 online version: https://celerium.github.io/PokeAPI-PowerShellWrapper/site/Internal/Set-PokeCachedData.html
-parent: SET
+parent: PUT
 schema: 2.0.0
 title: Set-PokeCachedData
 ---
