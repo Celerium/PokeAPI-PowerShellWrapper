@@ -27,8 +27,8 @@ Whether you use this project, have learned something from it, or just like it, p
 
 ## Agent Reports
 
-![Agent Reports](https://raw.githubusercontent.com/Celerium/PokeAPI-PowerShellWrapper/main/.github/images/Celerium_PokeAgentsReport.png)
+![Agent Reports](https://raw.githubusercontent.com/Celerium/PokeAPI-PowerShellWrapper/main/.github/images/Celerium_PokeOverviewReport.png)
 
 ## Device Reports
 
-![Device Reports](https://raw.githubusercontent.com/Celerium/PokeAPI-PowerShellWrapper/main/.github/images/Celerium_PokeDevicesReport.png)
+![Device Reports](https://raw.githubusercontent.com/Celerium/PokeAPI-PowerShellWrapper/main/.github/images/Celerium_PokeRandomPokemon.png)
