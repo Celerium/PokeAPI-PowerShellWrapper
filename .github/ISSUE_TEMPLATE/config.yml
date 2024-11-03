@@ -4,7 +4,7 @@ contact_links:
     url: https://celerium.github.io/PokeAPI/
     about: Read through the generated documentation
   - name: Vendor Documentation
-    url: https://github.com/Celerium
+    url: https://pokeapi.co/docs/v2
     about: Read through the vendors documentation
   - name: Celerium.org
     url: https://celerium.org
