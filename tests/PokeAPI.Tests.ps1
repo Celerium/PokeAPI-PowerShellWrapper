@@ -62,7 +62,7 @@
                                         Code
 ############################################################################################>
 #Requires -Version 5.1
-#Requires -Modules @{ ModuleName='Pester'; ModuleVersion='5.6.1' }
+#Requires -Modules @{ ModuleName='Pester'; ModuleVersion='5.5.0' }
 
 #Region     [ Parameters ]
 
@@ -178,12 +178,12 @@ Describe "Testing the [ $buildTarget ] version of [ $moduleName ] with [ $pester
         It "Manifest [ NestedModules ] has valid data" {
             switch ($buildTarget){
                 'built'     { ($Module.NestedModules.Name).Count | Should -Be 0 }
-                'notBuilt'  { ($Module.NestedModules.Name).Count | Should -Be 63 }
+                'notBuilt'  { ($Module.NestedModules.Name).Count | Should -Be 61 }
             }
         }
 
         It "Manifest [ FunctionsToExport ] has valid data" {
-            ($Module.ExportedCommands).Count | Should -Be 63
+            ($Module.ExportedCommands).Count | Should -Be 60
         }
 
         It "Manifest [ CmdletsToExport ] is empty" {

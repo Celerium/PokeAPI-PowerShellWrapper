@@ -11,30 +11,33 @@ title: Get-PokeBerry
 # Get-PokeBerry
 
 ## SYNOPSIS
-Gets berries from PokeAPI
+Gets pokemon forms from PokeAPI
 
 ## SYNTAX
 
 ### index_ByAll (Default)
 ```powershell
-Get-PokeBerry [-offset <Int32>] [-limit <Int32>] [-allPages] [-updateCache] [<CommonParameters>]
+Get-PokeBerry [-offset <Int32>] [-limit <Int32>] [-allPages] [<CommonParameters>]
 ```
 
 ### index_ById
 ```powershell
-Get-PokeBerry -id <Int32> [-updateCache] [<CommonParameters>]
+Get-PokeBerry -id <Int32> [<CommonParameters>]
 ```
 
 ### index_ByName
 ```powershell
-Get-PokeBerry -name <String> [-updateCache] [<CommonParameters>]
+Get-PokeBerry -name <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The Get-PokeBerry cmdlet gets berries from PokeAPI
+The Get-PokeBerry cmdlet gets pokemon forms from PokeAPI
 
-Berries are small fruits that can provide HP and status condition restoration,
-stat enhancement, and even damage negation when eaten by Pokemon
+Some Pokemon may appear in one of multiple, visually different forms.
+These differences are purely cosmetic.
+For variations within a Pokemon species,
+which do differ in more than just visuals, the
+'Pokemon' entity is used to represent such a variety.
 
 ## EXAMPLES
 
@@ -43,21 +46,21 @@ stat enhancement, and even damage negation when eaten by Pokemon
 Get-PokeBerry
 ```
 
-Gets the first 20 berries sorted by id
+Gets the first 20 pokemon forms sorted by id
 
 ### EXAMPLE 2
 ```powershell
 Get-PokeBerry -id 1
 ```
 
-Gets the berry with the defined id
+Gets the pokemon form with the defined id
 
 ### EXAMPLE 3
 ```powershell
 Get-PokeBerry -name ditto
 ```
 
-Gets the berry with the defined name
+Gets the pokemon form with the defined name
 
 ### EXAMPLE 4
 ```powershell
@@ -154,23 +157,6 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -updateCache
-Defines if the cache is refreshed regardless of age
-
-By default the cache is refreshed every 30min
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: False
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see [about_CommonParameters](http://go.microsoft.com/fwlink/?LinkID=113216).
 
@@ -183,5 +169,5 @@ n/a
 
 ## RELATED LINKS
 
-[https://celerium.github.io/PokeAPI-PowerShellWrapper/site/berry/Get-PokeBerry.html](https://celerium.github.io/PokeAPI-PowerShellWrapper/site/berry/Get-PokeBerry.html)
+[https://celerium.github.io/PokeAPI-PowerShellWrapper/site/pokemon/Get-PokeBerry.html](https://celerium.github.io/PokeAPI-PowerShellWrapper/site/pokemon/Get-PokeBerry.html)
 

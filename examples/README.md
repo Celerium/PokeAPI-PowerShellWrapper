@@ -11,7 +11,7 @@
 ## Examples
 
 - :book: Project documentation can be found on [Github Pages](https://celerium.github.io/PokeAPI-PowerShellWrapper/)
-- :book: Poke's REST API documentation on their management portal [here](https://portal.Pokebackup.com/integrations/api) *[ Requires a login ]*.
+- :book: Poke's REST API documentation on their management portal [here](https://pokeapi.co/docs/v2).
 
 :warning: Please note that the following examples are provided **"AS IS"** and only serve as a proof of concept to show possible uses of the [PokeAPI](https://github.com/Celerium/PokeAPI-PowerShellWrapper) PowerShell wrapper.
 
@@ -27,8 +27,8 @@ Whether you use this project, have learned something from it, or just like it, p
 
 ## Agent Reports
 
-![Agent Reports](https://raw.githubusercontent.com/Celerium/PokeAPI-PowerShellWrapper/main/.github/images/Celerium_PokeOverviewReport.png)
+![Agent Reports](https://raw.githubusercontent.com/Celerium/PokeAPI-PowerShellWrapper/main/.github/images/Celerium_PokeAgentsReport.png)
 
 ## Device Reports
 
-![Device Reports](https://raw.githubusercontent.com/Celerium/PokeAPI-PowerShellWrapper/main/.github/images/Celerium_PokeRandomPokemon.png)
+![Device Reports](https://raw.githubusercontent.com/Celerium/PokeAPI-PowerShellWrapper/main/.github/images/Celerium_PokeDevicesReport.png)

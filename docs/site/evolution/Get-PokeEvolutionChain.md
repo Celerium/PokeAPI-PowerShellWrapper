@@ -17,17 +17,17 @@ Gets evolution chains from PokeAPI
 
 ### index_ByAll (Default)
 ```powershell
-Get-PokeEvolutionChain [-offset <Int32>] [-limit <Int32>] [-allPages] [-updateCache] [<CommonParameters>]
+Get-PokeEvolutionChain [-offset <Int32>] [-limit <Int32>] [-allPages] [<CommonParameters>]
 ```
 
 ### index_ById
 ```powershell
-Get-PokeEvolutionChain -id <Int32> [-updateCache] [<CommonParameters>]
+Get-PokeEvolutionChain -id <Int32> [<CommonParameters>]
 ```
 
 ### index_ByName
 ```powershell
-Get-PokeEvolutionChain -name <String> [-updateCache] [<CommonParameters>]
+Get-PokeEvolutionChain -name <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -147,23 +147,6 @@ pagination is introduced.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: index_ByAll
-Aliases:
-
-Required: False
-Position: Named
-Default value: False
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -updateCache
-Defines if the cache is refreshed regardless of age
-
-By default the cache is refreshed every 30min
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
 Aliases:
 
 Required: False

@@ -21,7 +21,7 @@ function Add-PokeBaseURI {
         A custom API gateway of http://myapi.gateway.example.com will be used for all API calls to Poke's API.
 
     .NOTES
-        N/A
+        N\A
 
     .LINK
         https://celerium.github.io/PokeAPI-PowerShellWrapper/site/Internal/Add-PokeBaseURI.html

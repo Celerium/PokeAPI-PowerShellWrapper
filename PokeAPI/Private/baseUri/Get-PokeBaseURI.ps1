@@ -12,7 +12,7 @@ function Get-PokeBaseURI {
         Shows the Poke base URI global variable value.
 
     .NOTES
-        N/A
+        N\A
 
     .LINK
         https://celerium.github.io/PokeAPI-PowerShellWrapper/site/Internal/Get-PokeBaseURI.html
