@@ -1,10 +1,10 @@
-function Get-PokeBerry {
+function Get-PokePokemonForm {
 <#
     .SYNOPSIS
         Gets pokemon forms from PokeAPI
 
     .DESCRIPTION
-        The Get-PokeBerry cmdlet gets pokemon forms from PokeAPI
+        The Get-PokePokemonForm cmdlet gets pokemon forms from PokeAPI
 
         Some Pokemon may appear in one of multiple, visually different forms.
         These differences are purely cosmetic. For variations within a Pokemon species,
@@ -36,22 +36,22 @@ function Get-PokeBerry {
         pagination is introduced.
 
     .EXAMPLE
-        Get-PokeBerry
+        Get-PokePokemonForm
 
         Gets the first 20 pokemon forms sorted by id
 
     .EXAMPLE
-        Get-PokeBerry -id 1
+        Get-PokePokemonForm -id 1
 
         Gets the pokemon form with the defined id
 
     .EXAMPLE
-        Get-PokeBerry -name ditto
+        Get-PokePokemonForm -name ditto
 
         Gets the pokemon form with the defined name
 
     .EXAMPLE
-        Get-PokeBerry -offset 151 -limit 100
+        Get-PokePokemonForm -offset 151 -limit 100
 
         Gets the first 100 resources starting at resources with
         an id over 151
@@ -60,7 +60,7 @@ function Get-PokeBerry {
         n/a
 
     .LINK
-        https://celerium.github.io/PokeAPI-PowerShellWrapper/site/pokemon/Get-PokeBerry.html
+        https://celerium.github.io/PokeAPI-PowerShellWrapper/site/pokemon/Get-PokePokemonForm.html
 #>
 
     [CmdletBinding(DefaultParameterSetName = 'index_ByAll')]

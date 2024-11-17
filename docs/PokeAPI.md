@@ -25,7 +25,7 @@ Exports the Poke BaseURI, API, & JSON configuration information to file.
 Shows the Poke base URI global variable.
 
 ### [Get-PokeBerry](site/berry/Get-PokeBerry.md)
-Gets pokemon forms from PokeAPI
+Gets berries from PokeAPI
 
 ### [Get-PokeBerryFirmness](site/berry/Get-PokeBerryFirmness.md)
 Gets the firmness of berries from PokeAPI
@@ -149,6 +149,9 @@ Gets egg groups from PokeAPI
 
 ### [Get-PokePokemonEncounter](site/pokemon/Get-PokePokemonEncounter.md)
 Gets pokemon location areas from PokeAPI
+
+### [Get-PokePokemonForm](site/pokemon/Get-PokePokemonForm.md)
+Gets pokemon forms from PokeAPI
 
 ### [Get-PokePokemonGender](site/pokemon/Get-PokePokemonGender.md)
 Gets genders from PokeAPI

@@ -183,7 +183,7 @@ Describe "Testing the [ $buildTarget ] version of [ $moduleName ] with [ $pester
         }
 
         It "Manifest [ FunctionsToExport ] has valid data" {
-            ($Module.ExportedCommands).Count | Should -Be 60
+            ($Module.ExportedCommands).Count | Should -Be 61
         }
 
         It "Manifest [ CmdletsToExport ] is empty" {

@@ -11,7 +11,7 @@ title: Get-PokeBerry
 # Get-PokeBerry
 
 ## SYNOPSIS
-Gets pokemon forms from PokeAPI
+Gets berries from PokeAPI
 
 ## SYNTAX
 
@@ -31,13 +31,10 @@ Get-PokeBerry -name <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The Get-PokeBerry cmdlet gets pokemon forms from PokeAPI
+The Get-PokeBerry cmdlet gets berries from PokeAPI
 
-Some Pokemon may appear in one of multiple, visually different forms.
-These differences are purely cosmetic.
-For variations within a Pokemon species,
-which do differ in more than just visuals, the
-'Pokemon' entity is used to represent such a variety.
+Berries are small fruits that can provide HP and status condition restoration,
+stat enhancement, and even damage negation when eaten by Pokemon
 
 ## EXAMPLES
 
@@ -46,21 +43,21 @@ which do differ in more than just visuals, the
 Get-PokeBerry
 ```
 
-Gets the first 20 pokemon forms sorted by id
+Gets the first 20 berries sorted by id
 
 ### EXAMPLE 2
 ```powershell
 Get-PokeBerry -id 1
 ```
 
-Gets the pokemon form with the defined id
+Gets the berry with the defined id
 
 ### EXAMPLE 3
 ```powershell
 Get-PokeBerry -name ditto
 ```
 
-Gets the pokemon form with the defined name
+Gets the berry with the defined name
 
 ### EXAMPLE 4
 ```powershell
@@ -169,5 +166,5 @@ n/a
 
 ## RELATED LINKS
 
-[https://celerium.github.io/PokeAPI-PowerShellWrapper/site/pokemon/Get-PokeBerry.html](https://celerium.github.io/PokeAPI-PowerShellWrapper/site/pokemon/Get-PokeBerry.html)
+[https://celerium.github.io/PokeAPI-PowerShellWrapper/site/berry/Get-PokeBerry.html](https://celerium.github.io/PokeAPI-PowerShellWrapper/site/berry/Get-PokeBerry.html)
 
